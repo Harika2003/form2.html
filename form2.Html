@@ -1,0 +1,80 @@
+<html> 
+
+<head>
+<title> Placement Registration </title> 
+</head>
+
+<body> 
+<font color="black" fontsize="10"> 
+<center>
+
+Placement Registration Form </center></font>
+<form action="registration_db.php" mehtod="POST"> <center> 
+<table> 
+<font align="center"> 
+<td bgcolor="lightblue">
+<center>
+ <input type="radio" id="Ms" name="option1" value="Ms">
+<label for="Ms"> Ms </label> 
+<input type="radio" id="Mr" name="option2" value="Mr">
+<label for="Mr"> Mr </label>
+<input type="radio" id="Mrs" name="option3" value="Mrs">
+<label for="Mrs"> Mrs </label> 
+</center>
+<center>
+Student ID:<input type="text" name="Student ID"> </br>
+First Name:<input type="text" name="First Name"> </br>
+Last Name:<input type="text" name="Last Name"> </br>
+Username:<input type="text" name="Username"> </br>
+Password:<input type="text" name="Password"> </br>
+<label for="Address">Address:</label>
+
+<textarea id="Address" name="Address"
+          rows="5" cols="33">
+
+</textarea> </br>
+
+City:<input type="text" name="City"> </br>
+<label for="States"> State :</label>
+<select name="State" id="Statas">
+    <option value="Telangana"> Telangana </option>
+  <option value="Andhra Pradesh"> Andhra Pradesh </option>
+  <option value="Kerala"> Kerala </option>
+  <option value="Tamil Nadu"> Tamil Nadu </option>
+  <option value="Goa"> Goa </option>
+  <option value="Orissa"> Orissa </option>
+  <option value="Maharashtra"> Maharashtra </option>
+  <option value="Madhya Pradesh"> Madhya Pradesh </option>
+</select>  </br>
+
+Pincode:<input type="text" name="Pincode"> </br>
+Upload Photo:<input type="text" name="Upload photo"> </br>
+E-mail:<input type="text" name="e-mail"> </br>
+Mobile:<input type="text" name="Mobile"> </br>  
+
+<label for="Language"> Languages known:</label> </br>
+
+<input type="checkbox" id="English" name="language1" value="English">
+<label for="English"> English </label><br>
+<input type="checkbox" id="Hindi" name="language2" value="Hindi">
+<label for="Hindi"> Hindi </label><br>
+<input type="checkbox" id="English" name="language3" value="English">
+<label for="English"> English </label><br>   
+
+<label for="Additional info"> Additional info:</label>
+
+<textarea id="Additional info" name="Additional info"
+          rows="5" cols="33">
+</textarea> </br>
+<input type="checkbox" id="Accepting the terms and conditions" name="t&c" value="Accepting the terms and conditions">
+<label for="Accepting the terms and conditions"> Accepting the terms and conditions </label><br>
+
+<input type="submit" name="submit" value="submit">
+<input type="submit" name="reset" value="reset">
+</table>
+</center>
+</form>
+</body>
+
+</html>
+
